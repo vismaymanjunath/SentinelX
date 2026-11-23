@@ -1,0 +1,13 @@
+# SENTINEL X - Python dependencies (host + collector + tests)
+fastapi
+uvicorn
+websockets
+httpx
+psutil
+cryptography
+numpy
+python-multipart
+packaging
+pytest
+# optional: local speech-to-text (Whisper) for the Ask SENTINEL X microphone; model is downloaded once into ./models (not committed)
+faster-whisper

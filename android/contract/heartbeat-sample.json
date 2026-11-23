@@ -1,0 +1,34 @@
+{
+  "interval_s": 900,
+  "oldest_pending_s": 0,
+  "device_model": "Google Pixel 7",
+  "topology": {
+    "nodes": [
+      {
+        "id": "host:pixel-7",
+        "label": "Pixel 7",
+        "type": "host"
+      },
+      {
+        "id": "net:pixel-7-link",
+        "label": "Pixel 7 link",
+        "type": "network"
+      }
+    ],
+    "edges": [[
+      "host:pixel-7",
+      "net:pixel-7-link"
+    ]]
+  },
+  "os_version": "Android 14 (API 34)",
+  "version": "1.0.0",
+  "config_version": 1,
+  "source_tz": "Asia/Kolkata",
+  "host_id": "phone-1a2b3c4d",
+  "platform": "android",
+  "sent_at": "2027-01-15T08:00:00.123Z",
+  "collector_id": "col-r-pixel-7",
+  "buffer_depth": 0,
+  "link_state": "connected",
+  "last_seq": 5
+}

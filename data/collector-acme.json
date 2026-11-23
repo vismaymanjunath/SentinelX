@@ -1,0 +1,11 @@
+{
+  "collector_id": "col-acme-01",
+  "tenant": "acme",
+  "api_key": "sx_cCXzvL3uTXDq5TJcyBXcNZzbNRWv_0Een856VY5xY-A",
+  "region": "eu-west",
+  "source_tz": "Europe/London",
+  "saas_url": "https://localhost:8443",
+  "ca_cert": "C:\\Users\\Shalom\\Documents\\ATRIA HACK\\data\\tls\\ca.pem",
+  "ui_port": 9001,
+  "data_dir": "C:\\Users\\Shalom\\Documents\\ATRIA HACK\\data\\collector-acme"
+}

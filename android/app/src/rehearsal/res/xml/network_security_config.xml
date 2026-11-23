@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Normal system trust store stays in force; debug-overrides ADD one extra anchor (the local SENTINEL X dev CA).
+         Cleartext remains blocked. If res/raw/dev_ca.pem is absent the debug build simply fails to compile - see android/README. -->
+    <base-config cleartextTrafficPermitted="false" />
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/dev_ca" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

@@ -1,0 +1,87 @@
+{
+  "sent_at": "2027-01-15T08:00:00.123Z",
+  "schema_version": "1.0",
+  "payload_id": "11111111-2222-3333-4444-555555555555",
+  "collector_id": "col-r-pixel-7",
+  "seq": 5,
+  "events": [
+    {
+      "severity": "info",
+      "unit": "percent",
+      "event_id": "c1b06ec6-8c65-40d4-ae96-a062d204a664",
+      "metric": "memory_percent",
+      "context": {"origin": "real"},
+      "source_id": "host:pixel-7",
+      "type": "metric",
+      "category": "infrastructure",
+      "value": 61.5,
+      "event_time": "2027-01-15T08:00:00.123Z",
+      "source_tz": "Asia/Kolkata"
+    },
+    {
+      "severity": "info",
+      "unit": "percent",
+      "event_id": "964fa57b-eac2-447a-bd04-0e84b76aaf89",
+      "metric": "disk_percent",
+      "context": {"origin": "real"},
+      "source_id": "host:pixel-7",
+      "type": "metric",
+      "category": "infrastructure",
+      "value": 72.25,
+      "event_time": "2027-01-15T08:00:00.123Z",
+      "source_tz": "Asia/Kolkata"
+    },
+    {
+      "severity": "info",
+      "unit": "percent",
+      "event_id": "8ba43e90-0c8e-49ab-a59e-3051bc75977f",
+      "metric": "battery_percent",
+      "context": {"origin": "real"},
+      "source_id": "host:pixel-7",
+      "type": "metric",
+      "category": "infrastructure",
+      "value": 83,
+      "event_time": "2027-01-15T08:00:00.123Z",
+      "source_tz": "Asia/Kolkata"
+    },
+    {
+      "severity": "info",
+      "unit": "bool",
+      "event_id": "84b354cc-372b-4cd8-834b-03a83dad2665",
+      "metric": "battery_charging",
+      "context": {"origin": "real"},
+      "source_id": "host:pixel-7",
+      "type": "metric",
+      "category": "infrastructure",
+      "value": 1,
+      "event_time": "2027-01-15T08:00:00.123Z",
+      "source_tz": "Asia/Kolkata"
+    },
+    {
+      "severity": "info",
+      "unit": "mbps",
+      "event_id": "4603e797-7640-43c6-9c4c-a4056c4932bf",
+      "metric": "bandwidth_mbps",
+      "context": {"origin": "real"},
+      "source_id": "net:pixel-7-link",
+      "type": "metric",
+      "category": "network",
+      "value": 1.234,
+      "event_time": "2027-01-15T08:00:00.123Z",
+      "source_tz": "Asia/Kolkata"
+    },
+    {
+      "severity": "info",
+      "unit": "ms",
+      "event_id": "850e553e-ebc0-4047-ade4-1c73d5e1339f",
+      "metric": "latency_ms",
+      "context": {"origin": "real"},
+      "source_id": "net:pixel-7-link",
+      "type": "metric",
+      "category": "network",
+      "value": 42,
+      "event_time": "2027-01-15T08:00:00.123Z",
+      "source_tz": "Asia/Kolkata"
+    }
+  ]
+}

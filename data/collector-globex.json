@@ -1,0 +1,11 @@
+{
+  "collector_id": "col-globex-01",
+  "tenant": "globex",
+  "api_key": "sx_3QL7B5yBJBaWdn_O_zcjftCt0VQc02ghZYIQPWrlZqM",
+  "region": "ap-south",
+  "source_tz": "Asia/Kolkata",
+  "saas_url": "https://localhost:8443",
+  "ca_cert": "C:\\Users\\Shalom\\Documents\\ATRIA HACK\\data\\tls\\ca.pem",
+  "ui_port": 9002,
+  "data_dir": "C:\\Users\\Shalom\\Documents\\ATRIA HACK\\data\\collector-globex"
+}

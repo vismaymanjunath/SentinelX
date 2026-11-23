@@ -1,0 +1,24 @@
+# Render Blueprint: one Docker web service (API + dashboard + HTTPS collector ingest) with a persistent disk for the SQLite database.
+# Cost: Starter instance (~$7/mo) + 1 GB disk (~$0.25/mo). A persistent disk is NOT available on the free plan.
+services:
+  - type: web
+    name: sentinel-x
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/whoami
+    autoDeploy: true
+    disk:
+      name: sentinel-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: SENTINEL_PUBLIC_MODE
+        value: "1"
+      - key: SENTINEL_DATA_DIR
+        value: /var/data
+      - key: SENTINEL_ADMIN_PASSWORD
+        generateValue: true        # read it in the Render dashboard (Environment); change it any time
+      - key: SENTINEL_JOIN_CODE
+        generateValue: true        # give this to remote collectors; remove the variable to disable enrolment
+      - key: SENTINEL_VIEWER_PASSWORD
+        sync: false                # optional read-only account password (otherwise that account is disabled)

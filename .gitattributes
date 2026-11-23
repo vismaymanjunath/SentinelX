@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+data/saas.db filter=lfs diff=lfs merge=lfs -text
+models/models--Systran--faster-whisper-base.en/snapshots/3d3d5dee26484f91867d81cb899cfcf72b96be6c/model.bin filter=lfs diff=lfs merge=lfs -text
+data/collector-acme/collector.db filter=lfs diff=lfs merge=lfs -text
+data/saas-export.db filter=lfs diff=lfs merge=lfs -text
+data/collector-globex/collector.db filter=lfs diff=lfs merge=lfs -text
